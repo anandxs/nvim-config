@@ -1,3 +1,3 @@
 require("anandxs.options")
-require("anandxs.remap")
+require("anandxs.keymap")
 print("hello from anandxs")
