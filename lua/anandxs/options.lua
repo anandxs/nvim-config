@@ -6,7 +6,8 @@ local options = {
     -- wrap = false,
     scrolloff = 8,
     -- sidescrolloff = 8,
-    hlsearch = false
+    hlsearch = false,
+    termguicolors = true
 }
 
 for k, v in pairs(options) do
