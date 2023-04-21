@@ -20,6 +20,7 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 
+-- Go to Explorer
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Resize with arrows
