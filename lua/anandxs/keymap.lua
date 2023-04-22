@@ -65,7 +65,11 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 keymap("n", "<leader>nh", "<cmd>set nohls<cr>", opts)
 keymap("n", "<leader>h", "<cmd>set hls<cr>", opts)
 
--- Telescope keymaps
+-- Toggle terminal
+--[[ keymap("n", "<A-v>", "<cmd>ToggleTerm direction=vertical size=70<cr>", opts) ]]
+--[[ keymap("n", "<A-h>", "<cmd>ToggleTerm direction=horizontal size=10<cr>", opts) ]]
+
+-- Telescope keymaps (unused - check telescope.lua for keymaps currently used)
 -- keymap("n", "<leader>ff", "<cmd>Telescope find_files<cr>", opts)
 -- keymap("n", "<leader>ff", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 -- keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)

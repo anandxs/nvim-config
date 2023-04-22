@@ -81,6 +81,11 @@ return packer.startup(function(use)
 
     use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
 
+    use "numToStr/Comment.nvim" -- Easily comment stuff
+    use 'JoosepAlviste/nvim-ts-context-commentstring' -- For JSX commenting
+
+    use "akinsho/toggleterm.nvim" -- Terminal plugin
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then require("packer").sync() end
